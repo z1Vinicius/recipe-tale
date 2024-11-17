@@ -17,6 +17,7 @@ function App() {
       <PageHeader />  
       <PageBanner />  
       <ShareRecipeBanner />
+      <ExploreRecipes title='Threading Recipes' endpoint='recipes' />
       <ExploreRecipes title='Explore Recipes' endpoint='recipes' />
       <PageFooter />
     </>
