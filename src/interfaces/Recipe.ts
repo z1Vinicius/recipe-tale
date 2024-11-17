@@ -1,4 +1,5 @@
 export interface IRecipe {
+  id: string,
   title: string
   preparationTime: number
   servingSize: number
@@ -6,7 +7,7 @@ export interface IRecipe {
   description: string
   status: string
   categories: ICategory[]
-  Is: IImage[]
+  images: IImage[]
   instructions: IInstruction[]
   ingredients: IIngredient[]
 }
