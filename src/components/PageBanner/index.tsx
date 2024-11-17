@@ -14,10 +14,10 @@ function PageBanner(){
         </span>
         <div>
             <HeaderButton text="Sign up" primary={true}/>
-            <span className='text-gray-500 mt-2'>Do you have a account? <span className='font-medium'>Log in</span></span>
+            <span className='text-gray-500 mt-2'>Do you have a account? <a className='font-medium hover:text-gray-800 cursor-pointer'>Log in</a></span>
         </div>
       </div>
-      <div>
+      <div className='transform transition-transform duration-1000 ease-in-out hover:-rotate-90'>
         <img src={FoodPlate} alt="Food Plate with atum, tomatos and vegetables. " className='w-96'/>
       </div>
     </div>
